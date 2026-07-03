@@ -2,7 +2,7 @@ import { LoginGradient } from '@/components/gradients/login-gradient';
 import '../../styles/login.css';
 import { LoginCardGradient } from '@/components/gradients/login-card-gradient';
 import { LoginForm } from '@/components/authentication/login-form';
-import { GhLoginButton } from '@/components/authentication/gh-login-button';
+import { GoogleLoginButton } from '@/components/authentication/google-login-button';
 
 export default function LoginPage() {
   return (
@@ -17,7 +17,7 @@ export default function LoginPage() {
           <LoginCardGradient />
           <LoginForm />
         </div>
-        <GhLoginButton label={'Log in with GitHub'} />
+        <GoogleLoginButton label={'Log in with Google'} />
         <div
           className={
             'mx-auto w-[343px] md:w-[488px] bg-background/80 backdrop-blur-[6px] px-6 md:px-16 pt-0 py-8 gap-6 flex flex-col items-center justify-center rounded-b-lg'
